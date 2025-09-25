@@ -1,0 +1,44 @@
+.sobremim-container {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background: #0f1624;
+  color: white;
+}
+
+.sobremim-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-btn {
+  background: #1f2937;
+  color: #9ca3af;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.timeline-btn:hover {
+  background: #374151;
+  color: white;
+}
+
+.timeline-btn.ativo {
+  background: linear-gradient(to right, #8b5cf6, #3b82f6);
+  color: white;
+  font-weight: bold;
+}
+
+.timeline-content {
+  font-size: 1.2rem;
+  color: #d1d5db;
+}

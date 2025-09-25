@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: center; /* centraliza o bloco de links */
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #0F1624;
+  color: white;
+  position: relative; /* para posicionar os ícones */
+}
+
+.navbar-center {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #22d3ee;
+}
+
+.navbar-icons {
+  position: absolute;
+  right: 2rem; /* canto direito */
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-icon:hover {
+  opacity: 0.8;
+}
+
+.navbar-icon.linkedin {
+  border-radius: 3px; /* como no design */
+}
