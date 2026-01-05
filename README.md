@@ -1,5 +1,7 @@
-<<<<<<<< HEAD:README.md
+
 Desafio: Desenvolva um portfólio com React hooks 
+
+Link para acesso ao portfolio: https://rid-214387-desafio05-px2n.vercel.app/
 
 Descricao: 
     Projeto desenvolvido como parte do Desafio da DNC, com o objetivo de criar uma página de portfólio em React, utilizando Vite para o ambiente de desenvolvimento.
