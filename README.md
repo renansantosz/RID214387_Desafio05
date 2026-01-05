@@ -1,3 +1,29 @@
+Desafio: Desenvolva um portfólio com React hooks 
+
+Descricao: 
+    Projeto desenvolvido como parte do Desafio da DNC, com o objetivo de criar uma página de portfólio em React, utilizando Vite para o ambiente de desenvolvimento.
+    O projeto apresenta uma aplicação frontend organizada em componentes, demonstrando boas práticas de estruturação, estilização e versionamento de código.
+
+Foi Utilizado:
+    React
+    Vite
+    JavaScript
+    CSS
+    Node.js (para gerenciamento de dependências)
+
+Funcionalidades:
+    Página inicial com seção Hero
+    Seção "Sobre Mim"
+    Listagem de projetos
+    Layout organizado em componentes reutilizáveis
+    Estilização personalizada com CSS
+
+EndPoints:
+    /#projetos
+    /#tecnologias
+    /#sobremim
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
