@@ -14,11 +14,14 @@ const SobreMim = () => {
   return (
     <section id="sobremim" className="sobremim-container">
       <h2 className="sobremim-title">Sobre mim</h2>
+
       <div className="timeline">
         {Object.keys(eventos).map((ano) => (
           <button
             key={ano}
-            className={`timeline-btn ${anoAtivo === parseInt(ano) ? "ativo" : ""}`}
+            className={`timeline-btn ${
+              anoAtivo === parseInt(ano) ? "ativo" : ""
+            }`}
             onClick={() => setAnoAtivo(parseInt(ano))}
           >
             {ano}

@@ -1,7 +1,5 @@
-
+<<<<<<<< HEAD:README.md
 Desafio: Desenvolva um portfólio com React hooks 
-
-Link para acesso ao portfolio: https://rid-214387-desafio05-px2n.vercel.app/
 
 Descricao: 
     Projeto desenvolvido como parte do Desafio da DNC, com o objetivo de criar uma página de portfólio em React, utilizando Vite para o ambiente de desenvolvimento.
@@ -26,23 +24,26 @@ EndPoints:
     /#tecnologias
     /#sobremim
 
+## Como executar o projeto
 
-# React + Vite
+Clone o repositório:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+git clone <url-do-repositorio>
 
-Currently, two official plugins are available:
+Entre na pasta do projeto:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+cd nome-do-projeto
 
-## React Compiler
+Instale as dependências:
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+npm install
 
-## Expanding the ESLint configuration
+Execute o projeto:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-========
-Link do Site disponibilizado: rid-214387-desafio05-ezwx6f46g-renan-santos-projects-a7a7c835.vercel.app
->>>>>>>> 8f31eccad091fdf6de9f2d5a7b24470a0ba5f672:desafio-05/README.md
+npm run dev
+
+## Deploy
+
+Projeto disponível em:
+
+https://rid-214387-desafio05-ezwx6f46g-renan-santos-projects-a7a7c835.vercel.app

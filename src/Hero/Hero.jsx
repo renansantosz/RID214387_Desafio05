@@ -8,7 +8,7 @@ const Hero = () => {
   const handleCloseModal = () => setIsModalOpen(false);
 
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
       <div className="hero-content">
         <h1 className="hero-title">Olá, eu sou Renan Santos</h1>
         <p className="hero-subtitle">
